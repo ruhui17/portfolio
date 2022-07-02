@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  body{
+    background-color: rgb(243, 243, 243);
+  }
+
+  header{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  header>.container{
+    margin-right: 4.16666667%;
+    margin-left: 4.16666667%;
+}
+.header-inner{
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo{
+    max-width: 300px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+header .nav-a>ul>li{
+    position:relative;
+    display: block;
+    text-align: justify;
+    display: inline-block; 
+    border-right: 1px solid gray;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+header .nav-a>ul>li>.tittle{
+    vertical-align: inherit;
+    text-decoration: none;
+    color: rgb(16, 16, 16);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.circle{
+    color: rgb(17, 89, 68);
+    display: inline-block;
+    background-color: rgb(17, 89, 68);
+    width: 50px;
+    height: 50px;
+    border-radius: 99em;
+    margin-bottom: -15px;
+
+}
+
+.logo a{
+    display: inline-block;
+    color: rgb(16, 16, 16);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    margin-left: 5px;
+    
+}
+
+/*//////////// main ///////////*/
+.main{
+    display: block;
+}
+.main-container{
+    margin: auto;
+    width: 83.333333%;
+    max-width: 1200px;
+}
+.main-row{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.hello{
+    display: block;
+    color: rgb(16, 16, 16);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: 510;
+    line-height: 100px;
+    margin-bottom: 20px;
+}
+.a-bit{
+    display: block;
+    color: rgb(16, 16, 16);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 510;
+    margin-bottom: 10px;
+}
+.about-me{
+    display: block;
+    color: rgb(16, 16, 16);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.main-row dt>img{
+    display: inline-block;
+    margin-right:10px
+}
