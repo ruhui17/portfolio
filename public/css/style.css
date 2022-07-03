@@ -248,7 +248,7 @@ header .nav-a>ul>li>.tittle{
     font-family:Arial, Helvetica, sans-serif;
     border-bottom: 1px solid rgb(86, 86, 86);
     margin-bottom: 40px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .uxui{
@@ -289,8 +289,9 @@ main{
     font-family:Arial, Helvetica, sans-serif;
     border-bottom: 1px solid rgb(37, 74, 43);
     margin-bottom: 40px;
-    font-size: 14px;
+    font-size: 16px;
     margin-left: 23px;
+    
 }
 .web>img{
     display: block;
