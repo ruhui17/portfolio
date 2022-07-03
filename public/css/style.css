@@ -215,14 +215,13 @@ header .nav-a>ul>li>.tittle{
     padding-top: 70px;
 
 }
-.mainn-row{
+/* .mainn-row{
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-}
-
+} */
 .main-row a{
     display: inline-block;
 }
@@ -239,4 +238,23 @@ header .nav-a>ul>li>.tittle{
     display: block;
     margin-bottom: 60px;
     border-radius: 20px;
+}
+
+.link{
+    display: inline-block;
+    padding-top: 10px;
+    color: rgb(86, 86, 86);
+    font-family:Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid rgb(86, 86, 86);
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+
+.uxui{
+    max-width: 960px;
+    margin-left: 16.6666667%;
+}
+.uxui>h3{
+    margin-top: 60px;
+    font-family:Arial, Helvetica, sans-serif;
 }
