@@ -46,7 +46,7 @@ header .nav-a>ul>li{
     padding-right: 10px;
     padding-left: 10px;
 }
-header .nav-a>ul>li:nth-child(3){
+header .nav-a>ul>li:nth-child(4){
     border-right:none
 }
 
@@ -104,7 +104,7 @@ header .nav-a>ul>li>.tittle{
     color: rgb(16, 16, 16);
     font-family:Arial, Helvetica, sans-serif;
     font-size: 80px;
-    font-weight: 510;
+    font-weight: 530;
     line-height: 100px;
     margin-bottom: 20px;
     letter-spacing: 1px;
@@ -114,7 +114,7 @@ header .nav-a>ul>li>.tittle{
     color: rgb(16, 16, 16);
     font-family:Arial, Helvetica, sans-serif;
     font-size: 20px;
-    font-weight: 510;
+    font-weight: 530;
     margin-bottom: 10px;
     letter-spacing: 1px;
 }
@@ -122,11 +122,13 @@ header .nav-a>ul>li>.tittle{
     display: block;
     color: rgb(16, 16, 16);
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    margin-bottom: 30px;
+    font-size: 14px;
+    margin-bottom: 40px;
+    margin-top: 10px;
     letter-spacing: 1px;
+    
 }
-.main-row dt>img{
+.main-row dt>a>img{
     display: inline-block;
     margin-right:10px
 }
@@ -161,4 +163,80 @@ header .nav-a>ul>li>.tittle{
     font-weight: 510;
     letter-spacing: 1.5px;
     margin-bottom: 3px;
+}
+
+
+.h2{
+    margin-left: 50px;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+.circle-web{
+     color: rgb(229, 241, 201);
+    display: inline-block;
+    background-color: rgb(229, 241, 201);
+    width: 50px;
+    height: 50px;
+    border-radius: 99em;
+    margin-bottom: -15px;
+}
+
+.circle-uiux{
+    color: rgb(196, 218, 120);
+    display: inline-block;
+    background-color: rgb(196, 218, 120);
+    width: 50px;
+    height: 50px;
+    border-radius: 99em;
+    margin-bottom: -15px;
+}
+
+.circle-graphic{
+    color: rgb(196, 218, 120);
+    display: inline-block;
+    background-color: rgb(241, 158, 56);
+    width: 50px;
+    height: 50px;
+    border-radius: 99em;
+    margin-bottom: -15px;
+}
+
+/* 內容 */
+.main-div{
+    display: block;
+}
+.main-container{
+    margin: auto;
+    width: 83.333333%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-top: 70px;
+
+}
+.mainn-row{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.main-row a{
+    display: inline-block;
+}
+
+.center{
+    align-items: center;
+}
+.mg-bt{
+    display: block;
+    margin-bottom: 60px;
+    border-radius: 20px;
+}
+.mg-at{
+    display: block;
+    margin-bottom: 60px;
+    border-radius: 20px;
 }
